@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <script src="/dashboard-console-capture.js" is:inline></script>
+        <script src="/dashboard-console-capture.js"></script>
       </head>
       <body className="flex flex-col min-h-screen">
         <Header />
